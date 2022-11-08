@@ -42,7 +42,7 @@ section {
     padding: 0.8rem 3rem;
     font-size: 1.7rem;
     border-radius: 0.5rem;
-    background: #666;
+    background: rgb(89, 180, 47);
     color: #fff;
     cursor: pointer;
     font-weight: 600;
@@ -548,12 +548,12 @@ section {
 .create-event form .inputBox input,
 .create-event form textarea {
     width: 100%;
-    background: #200808;
-    border-radius: 0.5rem;
-    padding: 1rem;
+    background: #005469;
+    padding: 0.5rem;
+    border-radius: 10px;
     margin: 0.7rem 0;
     font-size: 1.5rem;
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-transform: none;
 }
 
