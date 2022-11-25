@@ -10,6 +10,7 @@ var eventsRouter = require("./routes/event");
 var remarksRouter = require("./routes/remark");
 
 mongoose.connect("mongodb://localhost/eventmanagement", (err) => {
+    
     console.log(err ? err : "Connected to Database");
 });
 
